@@ -20,6 +20,7 @@ public class GooglePageStepDef {
 @Given("I launch google page")
 public void i_launch_google_page() {
     // Write code here that turns the phrase above into concrete actions
+	System.out.println("Setting up browser");
 	WebDriverManager.chromedriver().setup();
 	driver = new ChromeDriver();
 	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
