@@ -1,0 +1,74 @@
+[
+  {
+    "source": "I launch google page",
+    "steps": [
+      {
+        "name": "I launch google page",
+        "aggregatedDurations": {
+          "median": 4.79162,
+          "average": 4.79162
+        },
+        "durations": [
+          {
+            "duration": 4.79162,
+            "location": "file:///Users/balajikumar/Documents/workspace-spring-tool-suite-4-4.6.1.RELEASE/BDDSample/src/test/resources/features/googleSearch.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I search Java Tutorial",
+    "steps": [
+      {
+        "name": "I search Java Tutorial",
+        "aggregatedDurations": {
+          "median": 2.147265,
+          "average": 2.147265
+        },
+        "durations": [
+          {
+            "duration": 2.147265,
+            "location": "file:///Users/balajikumar/Documents/workspace-spring-tool-suite-4-4.6.1.RELEASE/BDDSample/src/test/resources/features/googleSearch.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Should display Java result page",
+    "steps": [
+      {
+        "name": "Should display Java result page",
+        "aggregatedDurations": {
+          "median": 0.002843,
+          "average": 0.002843
+        },
+        "durations": [
+          {
+            "duration": 0.002843,
+            "location": "file:///Users/balajikumar/Documents/workspace-spring-tool-suite-4-4.6.1.RELEASE/BDDSample/src/test/resources/features/googleSearch.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Close the browser",
+    "steps": [
+      {
+        "name": "Close the browser",
+        "aggregatedDurations": {
+          "median": 0.22037,
+          "average": 0.22037
+        },
+        "durations": [
+          {
+            "duration": 0.22037,
+            "location": "file:///Users/balajikumar/Documents/workspace-spring-tool-suite-4-4.6.1.RELEASE/BDDSample/src/test/resources/features/googleSearch.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

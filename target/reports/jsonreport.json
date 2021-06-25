@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-23T09:51:26.419Z",
+        "line": 5,
+        "name": "Search Java Tutorial",
+        "description": "",
+        "id": "google-page-search;search-java-tutorial",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3055843000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch google page",
+            "match": {
+              "location": "stepdefs.GooglePageStepDef.i_launch_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2578862000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I search Java Tutorial",
+            "match": {
+              "location": "stepdefs.GooglePageStepDef.i_search_java_tutorial()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3185000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Should display Java result page",
+            "match": {
+              "location": "stepdefs.GooglePageStepDef.should_display_java_result_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 175232000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Close the browser",
+            "match": {
+              "location": "stepdefs.GooglePageStepDef.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Google Page Search",
+    "description": "  This feature is for verifying google page",
+    "id": "google-page-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/googleSearch.feature",
+    "tags": []
+  }
+]
