@@ -23,6 +23,7 @@ public class CRMLoginStepDef {
 	
 		@Given("User is already on login page")
 		public void user_is_already_on_login_page() {
+			System.out.println("Setting up browser");
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
